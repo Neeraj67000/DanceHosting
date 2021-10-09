@@ -1,0 +1,33 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+
+block content 
+    
+    section#introSection
+        div Welcome to Harry's Dance Academy
+        div.small Eat Sleep Dance Repeat
+    section#missionSection
+       
+        
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-content
+                    p This is the best dance academy of the universe
+
+        div.card
+            h3 Dance the way you like
+            div.card-box
+                div.card-content
+                    p This is the best dance academy of the universe
+
+
+        
+    section#sponsorsSection
+        h2 Our Sponsors 
