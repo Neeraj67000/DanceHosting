@@ -3,7 +3,7 @@ const path = require("path");
 const app = express();
 const mongoose = require('mongoose');
 const bodyparser = require("body-parser");
-mongoose.connect('mongodb://localhost/contactdance');
+mongoose.connect('mongodb://localhost:27017/');
 const port = 8000;
 
 
